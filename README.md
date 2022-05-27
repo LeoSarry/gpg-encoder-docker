@@ -7,7 +7,7 @@
     - **Using the public key of Athos, Porthos encrypts a message**
     - **Using its private key, Athos can decrypt the message**
     - **This repository only concerns encrypting the message**
-    - **The decrypting part is at [this repository](https://github.com/juanluck/athos-decrypts-porthos)**
+    - **The decrypting part is at [this repository]([https://github.com/juanluck/athos-decrypts-porthos](https://github.com/juanluck/athos-decrypte-porthos))**
 
 ## Create an image from the dockerfile
 
