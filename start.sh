@@ -9,8 +9,8 @@ gpg --yes --encrypt --recipient Athos --trust-model always /message/messagePorth
 
 echo "You can find your encoded message in message/messagePorthos.txt.gpg"
 
-gpg --export -a Athos > /keys/publicAthos.key
+gpg --export -a Athos > ./keys/publicAthos.key
 
-gpg --export-secret-keys -a Athos > /keys/secretAthos.key
+gpg --export-secret-keys -a Athos > ./keys/secretAthos.key
 
 echo "Exporting keys to the folder keys/"
