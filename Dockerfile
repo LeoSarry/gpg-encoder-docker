@@ -7,8 +7,7 @@ RUN apt update && \
 RUN mkdir /keys && \
 	mkdir /message
 	
-COPY ./createKey.var ./
-COPY ./start.sh ./
+COPY ./ ./
 
 RUN gpg --batch --gen-key /createKey.var
 
